@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Update the base path to your GitHub repo name
 export default defineConfig({
-  base: '/YogaToYou/',
+  base: '/YogaToYou/', // this must match your GitHub repo name
   plugins: [react()],
 })
